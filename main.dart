@@ -1,5 +1,5 @@
 void main() {
-  String adsoyad = "Ali Berat Ateş";
+  String adsoyad = "nylithra";
   int yas = 14;
   double maas = 0.5;
   bool medenidurum = true;
