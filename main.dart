@@ -10,4 +10,8 @@ void main() {
   print(
     "Merhaba $adsoyad Hoşgeldiniz Kişisel Bilgileriniz: Yaş: $yas , Maaşınız: $maas , Adresiniz: $adres , medeni durum: $medenidurum , Telefon Numarası: $telefonnumarasi",
   );
+
+  print("Merhaba"+ adsoyad)
+ print("Merhaba"+ adsoyad + "Yaşınız:" + yas)
+  print(maas)
 }
