@@ -1,0 +1,44 @@
+VERİ TİPLERİ
+
+string → Metinsel İfadeler
+int → Tam SayılaR
+double → Ondalıklı Sayılar
+bool → True False Değerleri
+
+Bu Veriler "Değişken"dir.
+
+--------------------------------
+
+Değişken Tanımlama Kuralları
+
+1) Türkçe Karakter İçeremez.
+2) Boşluk Olamaz.
+3) Özel Karakter İçeremez. (Semboller),(*,!,?)
+4) Rakam İle Başlayamaz. (1.ad X - ad1 ✔)
+5) Özel Komutlar olamaz. (for,if,while,else)
+
+----------------------------------------
+
+tanımlama kodu
+
+void main(){
+  String adsoyad = "Nylithra"; //Tırnak İçerisinde Türkçe Karakter Kullanılabilir
+  int yas = 29;
+  bool medenidurum = true;
+  double maas = 100000.5;
+}
+
+  Powershell Komutları (Linux)
+  
+ls → Dosyaları Sırala
+cd <tab> → Dosyaya gir (Tab İle Seç)
+mkdir → klasör oluşturma komutu (kullanım: mkdir <Klasör Adı>)
+touch → Dosya Oluşturma ör: touch main.dart 
+git clone https://github.com/username/reponame.git → Githubdaki Depoyu Bilgisayara Yükleme (Reponame → Depo Adı - username → github kullanıcı adı)
+git init 
+git add .\main.dart → gönderilecek dosya
+git commit -m "Mesaj" → Yükleyeceğimiz dosya İçin Mesaj
+git push → Dosyayı Githuba Yükle
+
+Önemli Siteler
+  https://dartpad.dev/ → Dart Programlama İçin Online Editör
