@@ -1,0 +1,48 @@
+1. final:
+
+final, bir değişkenin değeri yalnızca bir kez atanabilir anlamına gelir. Yani, bir final değişkeni oluşturulduktan sonra, ona tekrar değer ataması yapılamaz. Ancak, final değişkenlerin değeri, ilk atandığı anda belirlenir ve bu değer değiştirilemez.
+
+Özellikleri:
+
+Değeri sadece bir kez atanabilir.
+
+Değer atandıktan sonra değiştirilemez.
+
+Derleme zamanı (compile-time) ve çalışma zamanı (runtime) farkı vardır: final bir değişkenin değeri çalışma zamanında da atanabilir (örneğin, bir fonksiyondan dönen değer).
+
+Örnek:
+
+final int sayi = 10;
+sayi = 20;  // Hata: final bir değişkene yeniden değer atanamaz.
+
+
+Bir final değişkenin değeri, yalnızca ilk atandığı anda belirlenebilir, ancak bu değer çalışma zamanında da atanabilir.
+
+final List<int> liste = [1, 2, 3];
+liste.add(4);  // Bu geçerli, çünkü listeyi değiştirmek mümkün.
+liste = [4, 5, 6];  // Hata: listeye yeni bir referans atayamazsınız.
+
+2. void:
+
+void, bir fonksiyonun herhangi bir değer döndürmediğini belirtmek için kullanılır. Yani, void tipinde bir fonksiyon sadece işlem yapar ve herhangi bir değer geri döndürmez.
+
+Özellikleri:
+
+Fonksiyonun geriye bir değer döndürmeyeceğini belirtir.
+
+void, genellikle fonksiyonlar için kullanılır.
+
+Örnek:
+
+void selamla() {
+  print("Merhaba!");
+}
+
+
+Burada selamla() fonksiyonu hiçbir değer döndürmez, sadece ekrana "Merhaba!" yazdırır. Bu tür fonksiyonlar genellikle yan etkiler yaratır, yani işlemler yapar (örneğin ekrana yazdırma gibi) ama geriye bir değer döndürmezler.
+
+Özet:
+
+final: Değişkenin bir kez atanıp sonra değiştirilmemesini sağlar.
+
+void: Fonksiyonların hiçbir değer döndürmediğini belirtir.
