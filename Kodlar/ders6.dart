@@ -7,6 +7,8 @@ void main() {
     print(kelime[i]);
   }
 
+//2
+  
   int tek = 0, cift = 0;
 
   for (int i = 0; i < 1000; i++) {
@@ -18,4 +20,11 @@ void main() {
     }
   }
   print("Tek Sayılar $tek\n Çift Sayılar $cift");
+
+  //3
+
+  for (int i = 0; i < 10; i++) {
+    print(i * i);
+  }
+  
 }
