@@ -1,4 +1,4 @@
-// BU KOD TAMAMLANMADI KULLANMA!
+// BU KOD TAMAMLANMADI KULLANMA! 
 void main() {
   int evet = 0, hayir = 0;
   List<int> sayilar = [];
